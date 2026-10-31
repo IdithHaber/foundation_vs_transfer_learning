@@ -1,0 +1,44 @@
+{
+  "arguments": {
+    "data_dir": "msd_pancreas",
+    "steps": 500,
+    "train_count": 20,
+    "val_count": 3,
+    "roi_size": 64,
+    "feature_size": 24,
+    "lr": 0.0001,
+    "seed": 42,
+    "val_every": 100,
+    "output_dir": "outputs/experiment_500",
+    "checkpoint": null
+  },
+  "train_files": [
+    "pancreas_290.nii.gz",
+    "pancreas_012.nii.gz",
+    "pancreas_087.nii.gz",
+    "pancreas_175.nii.gz",
+    "pancreas_308.nii.gz",
+    "pancreas_385.nii.gz",
+    "pancreas_379.nii.gz",
+    "pancreas_019.nii.gz",
+    "pancreas_415.nii.gz",
+    "pancreas_089.nii.gz",
+    "pancreas_160.nii.gz",
+    "pancreas_126.nii.gz",
+    "pancreas_333.nii.gz",
+    "pancreas_218.nii.gz",
+    "pancreas_268.nii.gz",
+    "pancreas_418.nii.gz",
+    "pancreas_382.nii.gz",
+    "pancreas_196.nii.gz",
+    "pancreas_375.nii.gz",
+    "pancreas_315.nii.gz"
+  ],
+  "val_files": [
+    "pancreas_207.nii.gz",
+    "pancreas_235.nii.gz",
+    "pancreas_102.nii.gz"
+  ],
+  "torch": "2.13.0+cu126",
+  "cuda": "12.6"
+}
